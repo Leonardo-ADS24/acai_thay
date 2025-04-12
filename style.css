@@ -1,0 +1,54 @@
+body{
+    margin: 10 px;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container-menu{
+    padding: 10px 0;
+    background-color: #74009D;
+    
+    
+}
+.logo img{
+   
+    height: 70px;
+    
+}
+    
+    
+
+.menu-topo{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+ul{
+    display: inline;
+    justify-content: space-around;
+    
+    
+
+}
+
+li{
+    display: inline;
+    font-size: 25px;
+    padding: 40px;
+    
+}
+a{
+color:white;
+text-decoration: none;
+ 
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+.pagina-atual{
+    font-weight: bold;
+    text-decoration: underline;
+}
