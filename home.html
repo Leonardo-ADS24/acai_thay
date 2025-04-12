@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Açaí da Thaí - Home</title>
 </head>
 <body>
     <header>
         <nav>
+            <a href="#"><img src="_imagens/logo.png" alt="Logo da Loja Açaí fa Thay"></a>
             <ul><a href="#">Home</a></ul>
             <ul><a href="produtos.html">Produtos</a></ul>
             <ul><a href="sobre.html">Sobre</a></ul>
@@ -16,10 +18,49 @@
     </header>
     <h2>Home</h2>
     <main>
-
+        <div>
+            <h2>Seu açaí, do seu jeito! Personalize, peça online e aproveire.</h2>
+            <div>
+                <p>Faça seu Pedido Online!</p>
+                <div>
+                    <img src="_imagens/IFood_logo.svg" alt="Logo do ifood" style="width: 540px; height: 220px;">
+                    <p>Pedidos pelo ifood:<br>
+                        <a href="https://www.ifood.com.br/delivery/varginha-mg/acai-da-thay-jardim-orlandia/9b211048-fdd8-48b9-83ac-06359eca7a19" target="_blank">Clique aqui</a>
+                    </p>
+                </div>
+                    <img src="_imagens/whatsapp_logo.svg" alt="Logo do whatsapp" style="width: 540px; height: 220px;">
+                    <p>Pedidos pelo Whatssap: <br>
+                    <a href="">Clique aqui</a></p>
+                <div>
+                </div>
+            </div>
+        </div>
     </main>
+    <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="_imagens/img_01.png" class="d-block w-100" alt="Imagem 1" style="width: 640px; height: 480px;">
+            </div>
+            <div class="carousel-item">
+                <img src="_imagens/img_02.png" class="d-block w-100" alt="Imagem 2" style="width: 640px; height: 480px;" >
+            </div>
+            <div class="carousel-item">
+                <img src="_imagens/img_03.png" class="d-block w-100" alt="Imagem 3" style="width: 640px; height: 480px;">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        
+        <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
     <footer>
-
+        <p>Açaí da Thay</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
