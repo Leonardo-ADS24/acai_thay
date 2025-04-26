@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('_fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+  
+body{
+    margin: 10 px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    
+}
+
+.container-menu{
+    padding: 10px 0;
+    background-color: #74009D;
+        
+}
+
+.logo img{   
+    height: 70px;    
+}
+    
+    
+
+.menu-topo{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+ul{
+    display: inline;
+    justify-content: space-around;
+}
+
+li{
+    display: inline;
+    font-size: 25px;
+    padding: 40px;
+}
+
+a{
+color:white;
+text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;    
+}
+
+.pagina-atual{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+  
+.container-titulo,
+.container-links {
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}
+  
+.container-titulo h2 {
+    font-size: 2em;
+    margin: 0;
+}
+  
+.container-links {
+    padding: 15px;
+    border-radius: 10px;
+}
+  
+.container-links img {
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+  
+.link-ifood {
+    color: red;
+    text-decoration: underline;
+}
+
+.link-whatsapp {
+    color: rgb(30, 219, 30);
+    text-decoration: underline;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #74009D;
+    font-size: 20px;
+    color: white;
+}
+
