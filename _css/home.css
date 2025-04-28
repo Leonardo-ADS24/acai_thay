@@ -58,6 +58,7 @@ a:hover{
     text-decoration: underline;
 }
 
+
 .container-main {
     display: flex;
     flex-wrap: wrap;
@@ -66,7 +67,7 @@ a:hover{
     gap: 20px;
     padding: 20px;
 }
-  
+
 .container-titulo,
 .container-links {
     flex: 1 1 300px;
@@ -74,7 +75,7 @@ a:hover{
 }
   
 .container-titulo h2 {
-    font-size: 2em;
+    font-size: 4.5em;
     margin: 0;
 }
   
@@ -87,21 +88,46 @@ a:hover{
     max-width: 180px;
     margin-bottom: 10px;
 }
-  
+
+.pedido-link {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 20px; 
+    flex-wrap: wrap; 
+}
+
+.pedido-link img {
+    width: 250px; 
+    height: auto;
+}
+
+.pedido-link p {
+    margin: 0;
+    font-size: 2em;
+}
+
 .link-ifood {
     color: red;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .link-whatsapp {
     color: rgb(30, 219, 30);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 footer{
+    position: relative;
     padding: 10px 0;
     background-color: #74009D;
     font-size: 20px;
     color: white;
 }
 
+footer>p{
+    text-align: center;
+}
+footer>img{
+    height: 30px;
+}
