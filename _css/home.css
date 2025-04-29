@@ -75,13 +75,20 @@ a:hover{
 }
   
 .container-titulo h2 {
-    font-size: 4.5em;
-    margin: 0;
+    font-size: 3.5em;
+    margin: 57px;
+    font-weight: bold;
+    text-align:start;
 }
   
 .container-links {
     padding: 15px;
     border-radius: 10px;
+}
+
+.container-links h5{
+    text-align: center;
+    font-size: 2em;
 }
   
 .container-links img {
@@ -106,6 +113,16 @@ a:hover{
     margin: 0;
     font-size: 2em;
 }
+
+.vl1 {
+    border-left: 6px solid red;
+    height: 180px;
+  }
+
+.vl {
+    border-left: 6px solid rgb(30, 219, 30);
+    height: 180px;
+  }
 
 .link-ifood {
     color: red;
