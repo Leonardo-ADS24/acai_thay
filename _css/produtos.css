@@ -59,6 +59,8 @@ a:hover{
 
 
 .titulo{
+    text-shadow: 1px 1px px #ccc;
+    color:#74009D;
     text-align: center;
     padding: 10px;
 }
