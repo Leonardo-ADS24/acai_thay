@@ -6,7 +6,7 @@
 }
   
 body{
-    margin: 10 px;
+    margin: 0 px;
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
     
@@ -58,6 +58,11 @@ a:hover{
 }
 
 
+.titulo{
+    text-align: center;
+    padding: 10px;
+}
+
 .container-produtos {
     display: flex;
     flex-wrap: wrap;
@@ -78,11 +83,16 @@ a:hover{
 
 
 .produto img {
-    width: 100px;
-    height: 100px;
+    margin: 10px;
+    width: 200px;
+    height: 180px;
     object-fit: cover;
+    
 }
 
+.produto img:hover {
+    opacity: 0.5;
+  }
 
 .produto h3 {
     font-size: 18px;
@@ -94,12 +104,31 @@ a:hover{
     color: #555;
 }
 
+
+.container-link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-self: center;
+}
+
+#modalImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-produto {
+    cursor: pointer;
+}
 footer{
     position: relative;
     padding: 10px 0;
     background-color: #74009D;
     font-size: 20px;
     color: white;
+    width: 100%
 }
 
 footer>p{

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel ="stylesheet" href="_css/produtos.css">
     <title>Açaí da Thaí - Produtos</title>
 </head>
@@ -22,61 +23,100 @@
             </nav>
         </div>
     </header>
-    <h2>Produtos</h2>
+    <h2 class="titulo">Principais Produtos</h2>
     <main>
         <div class="container-produtos">
             <div class="produto">
-                <img src="_imagens/01_acai.jpg" alt="Açaí" height="230" width="404">
-                <h3>Nome: Açaí 330 ml + Leite condensado+ Leite Ninho</h3>
+                <img src="_imagens/01_acai.jpg" alt="Açaí" data-img="_imagens/01_acai.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" class="img-produto" height="230" width="404">
+                <h3><strong>Nome:</strong> Açaí 330 ml + Leite condensado + Leite Ninho</h3>
                 <p><strong>Valor:</strong> R$ 19,90</p>
             </div>
 
             <div class="produto">
-                <img src="_imagens/02_acai.jpg" alt="Açaí" height="230" width="404">
-                <h3>Nome: Açaí 400ml + Musse de morango ou Maracujá + leite Ninho</h3>
+                <img src="_imagens/02_acai.jpg" alt="Açaí" data-img="_imagens/02_acai.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" class="img-produto" height="230" width="404">
+                <h3><strong>Nome:</strong> Açaí 400ml + Musse de morango ou Maracujá + leite Ninho</h3>
                 <p><strong>Valor:</strong> R$ 22,00</p>
             </div>
 
             <div class="produto">
-                <img src="_imagens/03_acai.jpg" alt="Açaí" height="230" width="404">
-                <h3>Nome: Açaí 400ml+ paçoca + leite Ninho+leite condensado</h3>
+                <img src="_imagens/03_acai.jpg" alt="Açaí" data-img="_imagens/03_acai.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" class="img-produto" height="230" width="404">
+                <h3><strong>Nome:</strong> Açaí 400ml + paçoca + leite Ninho + leite condensado</h3>
                 <p><strong>Valor:</strong> R$ 23,50</p>
             </div>
 
             <div class="produto">
-                <img src="_imagens/04_acai.jpg" alt="Açaí" height="230" width="404">
-                <h3>Nome: Açaí 400ml</h3>
-                <p><strong>Valor:</strong> R$ 15,00</p>
+                <img src="_imagens/09_acai.jpeg" alt="Açaí" data-img="_imagens/09_acai.jpeg" data-bs-toggle="modal" data-bs-target="#imageModal" class="img-produto" height="230" width="404">
+                <h3><strong>Nome:</strong> Açaí de 500ml com Chantilly + morango ou banana</h3>
+                <p><strong>Valor:</strong> R$ 22,51</p>
             </div>
 
             <div class="produto">
-                <img src="_imagens/05_acai.jpg" alt="Açaí" height="230" width="404">
-                <h3>Nome: Açaí 500ml</h3>
+                <img src="_imagens/05_acai.jpg" alt="Açaí" data-img="_imagens/05_acai.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" class="img-produto" height="230" width="404">
+                <h3><strong>Nome:</strong> Açaí 500ml</h3>
                 <p><strong>Valor:</strong> R$ 17,95</p>
             </div>
 
             <div class="produto">
-                <img src="_imagens/06_acai.jpg" alt="Açaí" height="230" width="404">
-                <h3>Nome: Açaí 770ml</h3>
+                <img src="_imagens/06_acai.jpg" alt="Açaí" data-img="_imagens/06_acai.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" class="img-produto" height="230" width="404">
+                <h3><strong>Nome:</strong> Açaí 770ml</h3>
                 <p><strong>Valor:</strong> R$ 19,99</p>
             </div>
 
             <div class="produto">
-                <img src="_imagens/07_acai.jpg" alt="Açaí" height="230" width="404">
-                <h3>Nome: Açaí 770ml</h3>
+                <img src="_imagens/07_acai.jpg" alt="Açaí" data-img="_imagens/07_acai.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" class="img-produto" height="230" width="404">
+                <h3><strong>Nome:</strong> Açaí 770ml</h3>
                 <p><strong>Valor:</strong> R$ 26,79</p>
             </div>
 
             <div class="produto">
-                <img src="_imagens/08_acai.jpg" alt="Açaí" height="230" width="404">
-                <h3>Nome: Açaí cremoso kids de 330ml com Confetes + Leite Ninho ou leite condensado</h3>
+                <img src="_imagens/08_acai.jpg" alt="Açaí" data-img="_imagens/08_acai.jpg" data-bs-toggle="modal" data-bs-target="#imageModal" class="img-produto" height="230" width="404">
+                <h3><strong>Nome:</strong> Açaí cremoso kids de 330ml com Confetes + Leite Ninho ou leite condensado</h3>
                 <p><strong>Valor:</strong> R$ 15,72</p>
             </div>
-
+        </div>
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel">Imagem do açaí</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="" alt="Imagem do Produto" id="modalImage" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>    
+    <div class="container-link">
+        <a class="link-ifood" href="https://www.ifood.com.br/delivery/varginha-mg/acai-da-thay-jardim-orlandia/9b211048-fdd8-48b9-83ac-06359eca7a19" target="_blank">
+            <img src="_imagens/IFood_logo.svg" alt="Logo do ifood" height="50px" width="auto">
+        </a>
+        <p>Refresque seu dia com nosso açaí.<br>Peça agora pelo iFood ou Whatsapp</p>
+        <a href="https://web.whatsapp.com/send?phone=5535988421926" target="_blank" aria-label="Fazer pedido pelo WhatsApp">
+            <img src="_imagens/whatsapp_logo.svg" alt="Logo do whatsapp" height="60px" width="auto">
+        </a>
+    </div>
     <footer>
-        <p>&#169 2025 Todos os direitos reservados. Açaí da Thay </p>
+        <p>© 2025 Todos os direitos reservados. Açaí da Thay </p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modalImage = document.getElementById('modalImage');
+            const images = document.querySelectorAll('.img-produto');
+
+            images.forEach(image => {
+                image.addEventListener('click', function () {
+                    const imgSrc = this.getAttribute('data-img');
+                    modalImage.src = imgSrc;
+                });
+            });
+        });
+    </script>
 </body>
 </html>
