@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('_fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+  
+body{
+    margin: 0 px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    
+}
+
+.container-menu{
+    padding: 10px 0;
+    background-color: #74009D;
+        
+}
+
+.logo img{   
+    height: 70px;    
+}
+    
+    
+
+.menu-topo{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+ul{
+    display: inline;
+    justify-content: space-around;
+}
+
+li{
+    display: inline;
+    font-size: 25px;
+    padding: 40px;
+}
+
+a{
+color:white;
+text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;    
+}
+
+.pagina-atual{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.titulo{
+    text-align: center;
+    padding: 10px;
+}
+
+.container-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.produto img {
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    
+}
+
+.produto img:hover {
+    opacity: 0.5;
+  }
+
+.produto h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.produto p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.container-link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-self: center;
+}
+
+#modalImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-produto {
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    padding: 10px 0;
+    background-color: #74009D;
+    font-size: 20px;
+    color: white;
+    width: 100%
+}
+
+footer>p{
+    text-align: center;
+}
