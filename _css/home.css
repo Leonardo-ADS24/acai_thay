@@ -87,6 +87,8 @@ a:hover{
 }
 
 .container-links h5{
+    text-shadow: 1px 1px 3px #ccc;
+    color:#74009D;
     text-align: center;
     font-size: 2em;
 }
