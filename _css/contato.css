@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    body{
+
+    font-family:"Raleway", sans-serif;
+    padding-top: 140px;
+    font-size: 20px;
+    color: black;
+}
+.raleway-uniquifier {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+/*fundo navbar roxo */
+.bg-roxo {
+    background-color: #74009D;
+  }
+  
+  /*configurações nav-bar geral */
+  .navbar a,
+  .navbar .nav-link {
+    color: white !important;
+    font-size: 22px; 
+    }
+.nav-link:hover{
+    text-decoration: underline;
+}
+.container-footer{
+   
+    margin-left: 20%;
+    font-size: 14px;
+}
+.footer-links a{
+    text-decoration:none;
+    color:white;
+    margin-left: 5%;
+}
+
+
+.container-contato{
+    padding-left: 4%;
+
+}
+.input-roxo{
+    background-color: #74009D;
+    color: white;
+    
+    border: none;
+    width: 100%;
+}
+.borda-lateral{
+    border-left: solid 1px #74009D;
+    padding-left: 3%;
+    
+}
+.icone-insta{
+    color: #C13584;
+
+
+}
+.icone-zap{
+    color: green;
+}
